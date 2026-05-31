@@ -1,0 +1,42 @@
+# Node modules (will be installed in Docker)
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build output (will be built in Docker)
+dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Git
+.git
+.gitignore
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Documentation
+docs/
+README.md
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# Testing
+.test.js
+coverage/
+
+# Development
+vite.config.js.bak
+package-lock.json.bak
